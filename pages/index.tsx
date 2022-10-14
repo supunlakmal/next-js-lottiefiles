@@ -9,15 +9,20 @@ const Home: NextPage = () => {
     <div className={styles.container}>
   
 
-  <Player
+<Player
   autoplay
   loop
   src="https://assets5.lottiefiles.com/packages/lf20_GhkD0k.json"
-  style={{ height: '100vh', width: '100%' }}
+  style={{ height: '300px', width: '300px' }}
 >
-  {/* <Controls visible={true} buttons={['play', 'repeat', 'frame', 'debug']} /> */}
 </Player>
-
+<Player
+  autoplay
+  loop
+  src="https://assets5.lottiefiles.com/packages/lf20_GhkD0k.json"
+  style={{ height: '300px', width: '300px' }}
+>
+</Player>
    
     </div>
   )

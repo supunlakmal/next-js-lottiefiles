@@ -13,7 +13,7 @@ const Home: NextPage = () => {
   autoplay
   loop
   src="https://assets5.lottiefiles.com/packages/lf20_GhkD0k.json"
-  style={{ height: '300px', width: '300px' }}
+  style={{ height: '100vh', width: '100vw' }}
 >
   {/* <Controls visible={true} buttons={['play', 'repeat', 'frame', 'debug']} /> */}
 </Player>
